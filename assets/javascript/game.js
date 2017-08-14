@@ -93,13 +93,9 @@ function initialLoad() {
 
 // load the jumbotron
   crystalButton = $("<h2>");
-  crystalButton.text("Crystal Collector");
+  crystalButton.text("Star Wars RPG");
   crystalButton.addClass("text-center tc-text-center");
   $("#jumbo").html(crystalButton);
-  crystalButton = $("<h4>");
-  crystalButton.text("Collect all the right crystals!");
-  crystalButton.addClass("text-center");
-  $("#jumbo").append(crystalButton);
 
 
 }
